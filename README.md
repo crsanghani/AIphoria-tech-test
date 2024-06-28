@@ -39,8 +39,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Things I'd like to have done with more time (3 hours taken)
+* Make the bonus ball change per generation
+* Add the ability to make the number of balls configurable within the page itself with something like a number box thats value was added to state and passed in to the generateUniqueNumbers function
+* Display the bonus ball in the previous results
+* Persist the records of previous numbers generated in a mongoDB and add a time stamp to the display of the previous results recorded
+* Change the method for assigning colours to the number generated for the ball
+* Added some data visualiation for the probablity of certain numbers appearing
+* Had some tests, ultimatly decided against testing due to the nature of randomisation but im sure something could have been done with mocks / stubs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## To use the app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm i` after cloning
+### `npm start` after installing
+
+version 20.15.02 nodejs (lts)
+version 10.7.0 npm
